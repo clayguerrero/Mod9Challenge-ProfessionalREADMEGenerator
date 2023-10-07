@@ -9,19 +9,47 @@ const questions = [
   },
   {
     type: "input",
-    name: "motivation",
+    name: "description",
+    message: "Please provide a description of your application.",
+  },
+  {
+    type: "input",
+    name: "install",
     message:
-      "What was your motiviation for your project, and why did you build it?",
+      "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
   },
   {
     type: "input",
-    name: "problems",
-    message: "What are some challeges you faced making your project?",
+    name: "usage",
+    message: "Please provide instructions and examples for use.",
   },
   {
     type: "input",
-    name: "lesson",
-    message: "What did you learn from your project?",
+    name: "credits",
+    message:
+      "Please provide collaborators ,if any, and any third-party assets that require attribution. Please provide links as well",
+  },
+  {
+    type: "input",
+    name: "tests",
+    message:
+      "Please provide test instuctions. If your application does not have any tests please enter 'null'",
+  },
+  {
+    type: "list",
+    name: "license",
+    message: "Please choose the license you wish to use",
+    list: ["MIT", "ISC"],
+  },
+  {
+    type: "input",
+    name: "github",
+    message: "Please enter your GitHub username.",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "Please enter your email address.",
   },
 ];
 
@@ -29,7 +57,9 @@ const questions = [
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+
+}
 
 // Function call to initialize app
 init();
