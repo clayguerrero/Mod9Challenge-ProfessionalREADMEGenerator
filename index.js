@@ -7,7 +7,11 @@ const questions = [
     name: "title",
     message: "What is the title of your project?",
   },
-
+  {
+    type: 'input',
+    name: "motivation",
+    message: 'What was your motiviation for your project?'
+  },
 ];
 
 // TODO: Create a function to write README file
