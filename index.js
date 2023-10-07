@@ -8,9 +8,20 @@ const questions = [
     message: "What is the title of your project?",
   },
   {
-    type: 'input',
+    type: "input",
     name: "motivation",
-    message: 'What was your motiviation for your project?'
+    message:
+      "What was your motiviation for your project, and why did you build it?",
+  },
+  {
+    type: "input",
+    name: "problems",
+    message: "What are some challeges you faced making your project?",
+  },
+  {
+    type: "input",
+    name: "lesson",
+    message: "What did you learn from your project?",
   },
 ];
 
