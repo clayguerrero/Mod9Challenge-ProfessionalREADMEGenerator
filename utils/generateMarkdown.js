@@ -14,18 +14,18 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   const links = {
-    isc: "[ISC](https://choosealicense.com/licenses/isc/)",
-    mit: "[MIT](https://choosealicense.com/licenses/mit/)",
+    MIT: `[MIT](https://choosealicense.com/licenses/mit/)`,
+    ISC: `[ISC](https://choosealicense.com/licenses/isc/)`,
+    none: "",
   };
-  if (!license) return "";
-  else links[license];
+  return links[license];
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license)
-    return `This application is licensed with ${this.renderLicenseLink(license)}`;
+  if (!license === 'none')
+    return `This application is licensed with ${renderLicenseLink(license)}`;
   else return "";
 }
 
@@ -39,7 +39,13 @@ function generateMarkdown(data) {
 
   ## Installation Process
   ${data.install}
-  
+
+  ## Application Usage
+  ${data.usage}
+
+  ## License
+  ${renderLicenseSection(data.license)}
+
 
 `;
 }
