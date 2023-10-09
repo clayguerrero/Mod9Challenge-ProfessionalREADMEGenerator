@@ -37,16 +37,25 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
 
-  ## Installation Process
+  ## Table of Contents
+
+  ## Installation
   ${data.install}
 
-  ## Application Usage
+  ## Usage
   ${data.usage}
 
   ## License
   ${renderLicenseSection(data.license)}
 
+  ## Contributing
 
+  ## Tests
+  ${data.tests}
+
+  ## Questions
+  Checkout my GitHub at ${data.github}
+  You can reach out to me for more questions at ${data.email}
 `;
 }
 
