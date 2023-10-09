@@ -27,9 +27,9 @@ const questions = [
   },
   {
     type: "input",
-    name: "credits",
+    name: "contribution",
     message:
-      "Please provide collaborators ,if any, and any third-party assets that require attribution. Please provide links as well",
+      "Please provide contribution guidelines",
   },
   {
     type: "input",

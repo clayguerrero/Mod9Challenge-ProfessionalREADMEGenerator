@@ -32,12 +32,22 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
+
+  ${renderLicenseSection(license)}
+
   # ${data.title}
 
   ## Description
   ${data.description}
 
   ## Table of Contents
+  - [Description](#Description)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [License](#License)
+  - [Contributing](#Contributing)
+  - [Tests](#Tests)
+  - [Questions](#Questions)
 
   ## Installation
   ${data.install}
@@ -46,9 +56,10 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ${renderLicenseSection(data.license)}
+  This application is covered under the ${data.license} liscense
 
   ## Contributing
+  ${data.contribution}
 
   ## Tests
   ${data.tests}
