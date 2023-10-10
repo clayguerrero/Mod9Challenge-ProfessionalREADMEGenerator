@@ -1,11 +1,11 @@
 
 
-  undefined
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
-  # TEST2
+  # test3
 
   ## Description
-  second test
+  description test 3 
 
 
   ## Table of Contents
@@ -18,22 +18,22 @@
   - [Questions](#Questions)
 
   ## Installation
-  install instructions
+  install steps here
 
   ## Usage
-  examples here
+  examples
 
   ## License
   This application is covered under the 
-  [ISC](https://choosealicense.com/licenses/isc/)
+  [MIT](https://choosealicense.com/licenses/mit/)
    liscense
 
   ## Contributing
-  guidelines herer
+  guidelines here
 
   ## Tests
-  all tests herer
+  test here
 
   ## Questions
-  Checkout my GitHub at clayGH
-  You can reach out to me for more questions at emailEmial
+  Checkout my GitHub at clayGGH
+  You can reach out to me for more questions at emial
