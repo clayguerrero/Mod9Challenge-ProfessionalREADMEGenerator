@@ -2,10 +2,10 @@
 
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
-  # Clays Demo
+  # README Generator
 
   ## Description
-  description here
+  This application is able to generate a professional README file.
 
 
   ## Table of Contents
@@ -18,21 +18,21 @@
   - [Questions](#Questions)
 
   ## Installation
-  install instructions here
+  Enter 'npm install' in your terminal to gain all packages needed for project.
 
   ## Usage
-  examples for use here
+  This project is able to make a README for any project you and your team may need.
 
   ## License
-  This application is covered under the 
+  This application is covered under the
   [MIT](https://choosealicense.com/licenses/mit/)
    liscense
 
   ## Contributing
-  guidelines for contribution here
+  Guidelines here.
 
   ## Tests
-  test and test instructions here
+  At this time this project does not contain tests.
 
   ## Questions
   Checkout my GitHub at clayguerrero
