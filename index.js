@@ -35,7 +35,7 @@ const questions = [
     type: "input",
     name: "tests",
     message:
-      "Please provide test instuctions. If your application does not have any tests please enter 'null'",
+      "Please provide test instuctions for your application.",
   },
   {
     type: "list",
