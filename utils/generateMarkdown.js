@@ -33,7 +33,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `
 
-  ${renderLicenseSection(data.license)}
+  ${renderLicenseBadge(data.license)}
 
   # ${data.title}
 
@@ -57,7 +57,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  This application is covered under the ${data.license} liscense
+  This application is covered under the ${renderLicenseSection(data.license) } liscense
 
   ## Contributing
   ${data.contribution}
